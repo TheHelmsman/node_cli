@@ -10,25 +10,25 @@ Simple node.js application that shows how to work with `commander` and `inquirer
 
 1. Get app code fro repository
 
-```
+```bash
 git clone
 ```
 
 2. Install node modules:
 
-```
+```bash
 npm install
 ```
 
 3. Check if application works - get app version:
 
-```
+```bash
 npm run ver
 ```
 
 Sample output:
 
-```
+```bash
 
 > nodejs_cli@1.0.0 ver
 > node app.cjs --version
@@ -38,13 +38,13 @@ Sample output:
 
 4. Run app without params or with help parm to get information on usage:
 
-```
+```bash
 npm run start
 ```
 
 Sample output:
 
-```
+```bash
 
 > nodejs_cli@1.0.0 start
 > node app.cjs
@@ -65,7 +65,7 @@ Commands:
 
 5. Run application with startup params to create configuration file:
 
-```
+```bash
 npm run start c json test.json
 ```
 
@@ -73,7 +73,7 @@ Fill all prompt querries and check result in `files` folder:
 
 Sample output:
 
-```
+```bash
 
 > nodejs_cli@1.0.0 start
 > node app.cjs
