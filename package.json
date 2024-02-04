@@ -1,0 +1,30 @@
+{
+  "name": "nodejs_cli",
+  "version": "1.0.0",
+  "description": "Simple node.js cli app: Configuration files creator.",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app.cjs",
+    "ver": "node app.cjs --version",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">=16.0.0 <19.0.0"
+  },
+  "keywords": [
+    "node",
+    "cli",
+    "node.js"
+  ],
+  "author": "TheHelmsman",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "commander": "^8.0.0",
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "inquirer": "^8.0.0",
+    "node-fetch": "^3.3.2"
+  }
+}
